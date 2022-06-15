@@ -2,7 +2,9 @@
     background-image: url("circle.png");
     background-repeat: no-repeat;
     background-position: center;
+    background-color: green;
     cursor: pointer;
     height: 50px;
+    width: 150px;
     opacity: 25%;
 }
