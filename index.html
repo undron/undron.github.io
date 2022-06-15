@@ -1,9 +1,99 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Test</title>
-        <meta charset="utf-8">
-    </head>
-    <body>
-    </body>
+
+<head>
+    <title>Test</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://unpkg.com/jquery@3.3.1/dist/jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/fomantic-ui@2.8.8/dist/semantic.min.css">
+    <script src="https://unpkg.com/fomantic-ui@2.8.8/dist/semantic.min.js"></script>
+
+</head>
+
+<body>
+    <div class="ui main menu">
+        <div class="item">
+            <div class="ui icon input">
+                <input type="text" placeholder="Search...">
+                <i class="search link icon"></i>
+            </div>
+        </div>
+        <a class="ui item" id="login">
+            Login
+        </a>
+        <a class="ui item">
+            Logout
+        </a>
+    </div>
+
+    <h2 class="ui center aligned header">Basic Responsive</h2>
+    <div class="ui container">
+        <div class="ui segments">
+            <div class="ui segment">Content</div>
+            <div class="ui segment">Content</div>
+            <div class="ui segment">Content</div>
+            <div class="ui segment">Content</div>
+        </div>
+    </div>
+
+    <div class="ui divider"></div>
+
+    <h3 class="ui center aligned header">Responsive Item</h3>
+    <div class="ui container">
+        <button class="ui button" id="button1">
+            Button
+        </button>
+        <div class="ui button" tabindex="0" id="div">
+            Focusable
+        </div>
+    </div>
+    <div class="ui divider"></div>
+
+    <h3 class="ui center aligned header">Small buttons</h3>
+    <div class="ui container">
+        <button class="mini ui button" id="mini">
+            Mini
+        </button>
+    </div>
+    <div class="ui container">
+        <div class="ui accordion">
+            <div class="title">
+                <i class="dropdown icon"></i>
+                What is a dog?
+            </div>
+            <div class="content">
+                <p class="transition hidden">A dog is a type of domesticated animal. Known for its loyalty and
+                    faithfulness, it can be found as a welcome guest in many households across the world.</p>
+            </div>
+            <div class="title">
+                <i class="dropdown icon"></i>
+                What kinds of dogs are there?
+            </div>
+            <div class="content">
+                <p>There are many breeds of dogs. Each breed varies in size and temperament. Owners often select a breed
+                    of dog that they find to be compatible with their own lifestyle and desires from a companion.</p>
+            </div>
+            <div class="title">
+                <i class="dropdown icon"></i>
+                How do you acquire a dog?
+            </div>
+            <div class="content">
+                <p>Three common ways for a prospective owner to acquire a dog is from pet shops, private owners, or
+                    shelters.</p>
+                <p>A pet shop may be the most convenient way to buy a dog. Buying a dog from a private owner allows you
+                    to assess the pedigree and upbringing of your dog before choosing to take it home. Lastly, finding
+                    your dog from a shelter, helps give a good home to a dog who may not find one so readily.</p>
+            </div>
+        </div>
+    </div>
+    <div class="ui container">
+        <button class="ui button" id="button2">
+            More button
+        </button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
 </html>
