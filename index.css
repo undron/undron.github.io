@@ -1,0 +1,8 @@
+#d1 {
+    background-image: url("circle.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    height: 50px;
+    opacity: 25%;
+}
